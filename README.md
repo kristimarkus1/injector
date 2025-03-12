@@ -34,5 +34,9 @@ This project is a **Mach-O Binary Binder** that merges two executable programs i
    01
    hello world
    ```
+⚠️ Disclaimer
+This project is for educational purposes only. Do not use it for unethical activities.
+
+
 
 
