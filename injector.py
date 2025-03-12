@@ -3,18 +3,15 @@ import sys
 
 def merge_macho_binaries(target_bin, inject_bin, output_bin):
     try:
-        # Read the main binary (target)
+        
         with open(target_bin, "rb") as f:
             target_data = f.read()
 
-        # Read the binary to inject
         with open(inject_bin, "rb") as f:
             inject_data = f.read()
 
-        # Combine both binaries
         merged_data = target_data + inject_data
 
-        # Save the new binary
         with open(output_bin, "wb") as f:
             f.write(merged_data)
 
