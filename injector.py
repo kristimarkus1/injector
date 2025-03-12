@@ -1,4 +1,3 @@
-import struct
 import sys
 
 def merge_macho_binaries(target_bin, inject_bin, output_bin):
