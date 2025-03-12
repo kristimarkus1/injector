@@ -36,4 +36,3 @@ This project is a **Mach-O Binary Binder** that merges two executable programs i
    ```
 
 
-# injector
